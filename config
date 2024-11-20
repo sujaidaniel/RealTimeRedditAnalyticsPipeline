@@ -1,0 +1,26 @@
+[database]
+host = localhost
+name = airflow_reddit
+port = 5432
+username = postgres
+password = postgres
+
+[paths]
+input_directory = /opt/airflow/data/input
+output_directory = /opt/airflow/data/output
+
+[api_credentials]
+reddit_client_secret = [SECRET KEY HERE]
+reddit_client_id = [CLIENT ID HERE]
+
+[aws_config]
+access_key_id = [aws access key id]
+secret_access_key = [aws secret key]
+session_token = [aws session token]
+region = [aws region]
+s3_bucket = [s3 bucket name]
+
+[etl_config]
+batch_size = 100
+error_strategy = abort
+logging_level = info
