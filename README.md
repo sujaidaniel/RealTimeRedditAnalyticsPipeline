@@ -15,6 +15,8 @@ The data pipeline is designed to:
 - Load the transformed data into Amazon Redshift for analysis and querying.
 
 ## Architecture
+(https://github.com/user-attachments/assets/5985e50d-2ac9-40d4-9267-0926e75f7448)
+
 ### Components
 - **Reddit API**: Data source.
 - **Apache Airflow & Celery**: Coordinate the ETL workflow and handle task execution.
